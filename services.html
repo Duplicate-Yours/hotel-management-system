@@ -1,274 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <title>HoteLux</title>
-    <style>
-      .image-container:hover img {
-          transform: scale(1.1); /* Scale the image on hover */
-          transition: transform 0.3s ease; /* Add a smooth transition effect */
-      }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <title>HoteLux</title>
+  <style>
+    .image-container:hover img {
+      transform: scale(1.1);
+      /* Scale the image on hover */
+      transition: transform 0.3s ease;
+      /* Add a smooth transition effect */
+    }
+
+    a:hover {
+      /* text-decoration: none; */
+      color: #007bff;
+      margin-top: 10px;
+    }
   </style>
-  </head>
-  <body style="background-color: rgb(128, 167, 167)">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <img src="image/111.png" style="width: 50px; height: 50px;" alt="" />
-        <a class="navbar-brand" href="#"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="justify-content-evenly navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="room.html"
-                >ROOMS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="services.html"
-                >SERVICES</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="gallery.html"
-                >GALLERY</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html"
-                >ABOUT</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html"
-                >CONTACT</a
-              >
-            </li>
-          </ul>
-          <a href="login.html">
-            <button type="button" class="btn btn-info">Log in</button></a
-          >
-          <a class="p-2" href="signup.html">
-            <button type="button" class="btn btn-info">Sign Up</button></a
-          >
-        </div>
+</head>
+
+<body style="background-color: rgb(128, 167, 167)">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="image/111.png" style="width: 50px; height: 50px;" alt="" />
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="justify-content-evenly navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="room.html">ROOMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+        <a href="login.html">
+          <button type="button" class="btn btn-info">Log in</button></a>
+        <a class="p-2" href="signup.html">
+          <button type="button" class="btn btn-info">Sign Up</button></a>
       </div>
-    </nav>
-    <!-- Nav End -->
-    <header class="mb-5">
-      <div class="card text-bg-dark">
-        <img style="height: 700px;"
-          src="image/service/service-header.jpg"
-          class="card-img"
-          alt="..."
-        />
-        <div class="card-img-overlay mt-5 text-center">
-          <h5 style="margin-top: 180px; font-size: 80px; color: antiquewhite;" class="card-title fw-bolder"><b><i>Services</i></b></h5>
-        </div>
+    </div>
+  </nav>
+  <!-- Nav End -->
+  <header class="mb-5">
+    <div class="card text-bg-dark">
+      <img style="height: 700px;" src="image/service/service-header.jpg" class="card-img" alt="..." />
+      <div class="card-img-overlay mt-5 text-center">
+        <h5 style="margin-top: 180px; font-size: 80px; color: antiquewhite;" class="card-title fw-bolder">
+          <b><i>Services</i></b></h5>
       </div>
-    </header>
-    <section>
-      <div class="d-flex justify-content-evenly">
-        <div class="card img-thumbnail image-container" style="width: 18rem">
-          <img src="image/service/food.jpg" card-img-top alt="..." />
-          <div
-          class="position-absolute top-50 start-50 translate-middle"
-                style="
+    </div>
+  </header>
+  <section>
+    <div class="d-flex justify-content-evenly">
+      <div class="card img-thumbnail image-container" style="width: 18rem">
+        <img src="image/service/food.jpg" card-img-top alt="..." />
+        <div class="position-absolute top-50 start-50 translate-middle" style="
                   border: 1px solid yellow;
                   background-color: goldenrod;
                   border-radius: 5px;
                   margin-top: 40px;
-                "
-              >
-                From: 700BDT
-              </div>
-          <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
-            <h5 class="card-title" style="color: cornflowerblue;">Food And Bevarage</h5>
-            <p class="card-text">
-              All the guests can celebrate a special occasion or just s...
-            </p>
-          </div>
+                ">
+          From: 700BDT
         </div>
-        <div class="card img-thumbnail image-container" style="width: 18rem">
-          <img
-            src="image/service/free-transfer.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div
-          class="position-absolute top-50 start-50 translate-middle"
-                style="
-                  border: 1px solid yellow;
-                  background-color: goldenrod;
-                  border-radius: 5px;
-                  margin-top: 40px;
-                "
-              >
-                From: FREE
-              </div>
-          <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
-            <h5 class="card-title" style="color: cornflowerblue;">Free Tranfer</h5>
-            <p class="card-text">
-              Didn’t manage to book good transportation? We can help! W...
-            </p>
-          </div>
-        </div>
-        <div class="card img-thumbnail image-container" style="width: 18rem">
-          <img src="image/service/spa-f.jpg" class="card-img-top" alt="..." />
-          <div
-          class="position-absolute top-50 start-50 translate-middle"
-                style="
-                  border: 1px solid yellow;
-                  background-color: goldenrod;
-                  border-radius: 5px;
-                  margin-top: 40px;
-                "
-              >
-                From: 500BDT
-              </div>
-          <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
-            <h5 class="card-title" style="color: cornflowerblue;">Spa & Fitness</h5>
-            <p class="card-text">
-              As a guest, you can enjoy our Spa facilities to relax aft...
-            </p>
-          </div>
+        <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
+          <h5 class="card-title" style="color: cornflowerblue;">Food And Bevarage</h5>
+          <p class="card-text">
+            All the guests can celebrate a special occasion or just s...
+          </p>
         </div>
       </div>
-      <div class="d-flex justify-content-evenly mt-5">
-        <div class="card img-thumbnail image-container" style="width: 18rem">
-          <img src="image/service/kids.jpg" class="card-img-top" alt="..." />
-          <div
-          class="position-absolute top-50 start-50 translate-middle"
-                style="
+      <div class="card img-thumbnail image-container" style="width: 18rem">
+        <img src="image/service/free-transfer.jpg" class="card-img-top" alt="..." />
+        <div class="position-absolute top-50 start-50 translate-middle" style="
+                  border: 1px solid yellow;
+                  background-color: goldenrod;
+                  border-radius: 5px;
+                  margin-top: 40px;
+                ">
+          From: FREE
+        </div>
+        <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
+          <h5 class="card-title" style="color: cornflowerblue;">Free Tranfer</h5>
+          <p class="card-text">
+            Didn’t manage to book good transportation? We can help! W...
+          </p>
+        </div>
+      </div>
+      <div class="card img-thumbnail image-container" style="width: 18rem">
+        <img src="image/service/spa-f.jpg" class="card-img-top" alt="..." />
+        <div class="position-absolute top-50 start-50 translate-middle" style="
+                  border: 1px solid yellow;
+                  background-color: goldenrod;
+                  border-radius: 5px;
+                  margin-top: 40px;
+                ">
+          From: 500BDT
+        </div>
+        <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
+          <h5 class="card-title" style="color: cornflowerblue;">Spa & Fitness</h5>
+          <p class="card-text">
+            As a guest, you can enjoy our Spa facilities to relax aft...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-evenly mt-5">
+      <div class="card img-thumbnail image-container" style="width: 18rem">
+        <img src="image/service/kids.jpg" class="card-img-top" alt="..." />
+        <div class="position-absolute top-50 start-50 translate-middle" style="
                   border: 1px solid yellow;
                   background-color: goldenrod;
                   border-radius: 5px;
                   margin-top: 30px;
-                "
-              >
-                From: FREE
-              </div>
-          <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
-            <h5 class="card-title" style="color: cornflowerblue;">Kids Zone</h5>
-            <p class="card-text">
-              We offer extra space and playing materials for kids...
-            </p>
-          </div>
+                ">
+          From: FREE
         </div>
-        <div class="card img-thumbnail image-container" style="width: 18rem">
-          <img src="image/service/locker.jpg" class="card-img-top" alt="..." />
-          <div
-          class="position-absolute top-50 start-50 translate-middle"
-                style="
+        <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
+          <h5 class="card-title" style="color: cornflowerblue;">Kids Zone</h5>
+          <p class="card-text">
+            We offer extra space and playing materials for kids...
+          </p>
+        </div>
+      </div>
+      <div class="card img-thumbnail image-container" style="width: 18rem">
+        <img src="image/service/locker.jpg" class="card-img-top" alt="..." />
+        <div class="position-absolute top-50 start-50 translate-middle" style="
                   border: 1px solid yellow;
                   background-color: goldenrod;
                   border-radius: 5px;
                   margin-top: 50px;
-                "
-              >
-                From: 200BDT
-              </div>
-          <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
-            <h5 class="card-title" style="color: cornflowerblue;">Safe & Secure</h5>
-            <p class="card-text">
-              Keep your belongings safe! Use our storage services and k...
-            </p>
-          </div>
+                ">
+          From: 200BDT
         </div>
-        <div class="card img-thumbnail image-container" style="width: 18rem">
-          <img
-            src="image/service/laundry_A.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div
-          class="position-absolute top-50 start-50 translate-middle"
-                style="
+        <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
+          <h5 class="card-title" style="color: cornflowerblue;">Safe & Secure</h5>
+          <p class="card-text">
+            Keep your belongings safe! Use our storage services and k...
+          </p>
+        </div>
+      </div>
+      <div class="card img-thumbnail image-container" style="width: 18rem">
+        <img src="image/service/laundry_A.jpg" class="card-img-top" alt="..." />
+        <div class="position-absolute top-50 start-50 translate-middle" style="
                   border: 1px solid yellow;
                   background-color: goldenrod;
                   border-radius: 5px;
                   margin-top: 30px;
-                "
-              >
-                From: 100BDT
-              </div>
-          <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
-            <h5 class="card-title" style="color: cornflowerblue;">Laundry Service</h5>
-            <p class="card-text">
-              We provide all laundry services in our Hotel. Be sure tha...
-            </p>
-          </div>
+                ">
+          From: 100BDT
         </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <section class="mt-5" style="background-color:beige">
-      <div class="d-flex justify-content-evenly">
-        <div>
-          <h2 style="color: brown;"><b><i>HoteLux</i></b></h2>
-          <p>
-            We always strive for growth and development as StylemixThemes.<br />
-            We don’t want to have a large team, we want to have a team that
-            works in.<br />
-            Our slogan is “Every day is the last day”.
+        <div class="card-body text-center" style="background-color: rgba(242, 160, 130, 0.153);">
+          <h5 class="card-title" style="color: cornflowerblue;">Laundry Service</h5>
+          <p class="card-text">
+            We provide all laundry services in our Hotel. Be sure tha...
           </p>
         </div>
-        <div>
-          <h2 style="color: brown;"><b>Contact Us</b></h2>
-          <p>Sughandha Point,Cox's bazar 1130</p>
-          <p>
-            Contact No: 01874004733 <br />
-            Emergency No: 01531153157
-          </p>
-          <p>Email:info@hotelux.com</p>
-        </div>
-        <div>
-          <h2 style="color: brown;"><b>Stay With Us</b></h2>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="email"
-              placeholder="Enter Your Email"
-              aria-label="Email"
-            />
-            <button class="btn btn-outline-success" type="submit">Join</button>
-          </form>
-          <p>Enter your email address for promotions and news.</p>
-        </div>
       </div>
-      <hr class="border border-primary" />
-      <h6 class="text-center">
-        Copyright © 2023 HoteLux
-      </h6>
-    </section>
-    <!-- Footer End-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section class="mt-5" style="background-color:beige">
+    <div class="d-flex justify-content-evenly">
+      <div>
+        <h2 style="color: brown;"><b><i>HoteLux</i></b></h2>
+        <p>
+          We always strive for growth and development as StylemixThemes.<br />
+          We don’t want to have a large team, we want to have a team that
+          works in.<br />
+          Our slogan is “Every day is the last day”.
+        </p>
+      </div>
+      <div>
+        <h2 style="color: brown;"><b>Contact Us</b></h2>
+        <p>Sughandha Point,Cox's bazar 1130</p>
+        <p>
+          Contact No: 01874004733 <br />
+          Emergency No: 01531153157
+        </p>
+        <p>Email:info@hotelux.com</p>
+      </div>
+      <div>
+        <h2 style="color: brown;"><b>Stay With Us</b></h2>
+        <form class="d-flex">
+          <input class="form-control me-2" type="email" placeholder="Enter Your Email" aria-label="Email" />
+          <button class="btn btn-outline-success" type="submit">Join</button>
+        </form>
+        <p>Enter your email address for promotions and news.</p>
+      </div>
+    </div>
+    <hr class="border border-primary" />
+    <h6 class="text-center">
+      Copyright © 2023 HoteLux
+    </h6>
+  </section>
+  <!-- Footer End-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
